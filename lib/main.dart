@@ -35,7 +35,9 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
 
-    return Scaffold(
+    int cal = 0;
+
+    return Scaffold( //UI
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -116,7 +118,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   child: Text(
                     "AC",
                     style: TextStyle(
-                      fontSize: 50,
+                      fontSize: 65,
                       color: Colors.white,
                     ),
                   ),
